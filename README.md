@@ -1,88 +1,100 @@
 # 🧑‍💼 Employee Portal
 
-A modern employee/job management web application built using **React (Vite)**. This portal allows employees to manage their profiles, search jobs, and companies to post and manage job listings.
+A modern employee/job management web application built using **React (Vite)**. This portal empowers employees to manage profiles and discover jobs, while companies can post and manage listings with ease.
 
 ---
 
 ## 📁 Project Structure
-EMPLOYEE_PORTAL/
-├── public/ # Static assets
-├── src/
-│ ├── assets/ # Images, icons, and other assets
-│ ├── components/ # Reusable UI components
-│ │ ├── FilterForm.jsx
-│ │ ├── JobCard.jsx
-│ │ ├── Layout.jsx
-│ │ └── SearchBar.jsx
-│ ├── pages/ # Application views and pages
-│ │ ├── CompanyProfile.jsx
-│ │ ├── Homepage.jsx
-│ │ ├── Jobs.jsx
-│ │ ├── PostJob.jsx
-│ │ └── Settings.jsx
-│ ├── App.jsx # Main app component
-│ ├── main.jsx # Entry point
-│ ├── App.css # App-level styling
-│ └── index.css # Global CSS
-├── .gitignore
-├── index.html # HTML template
-├── package.json # Project metadata and dependencies
-├── vite.config.js # Vite configuration
-├── README.md # You're here
 
+```
+EMPLOYEE_PORTAL/
+├── public/                 # Static assets
+├── src/
+│   ├── assets/             # Images, icons, and other assets
+│   ├── components/         # Reusable UI components
+│   │   ├── FilterForm.jsx
+│   │   ├── JobCard.jsx
+│   │   ├── Layout.jsx
+│   │   └── SearchBar.jsx
+│   ├── pages/              # Application views and pages
+│   │   ├── CompanyProfile.jsx
+│   │   ├── Homepage.jsx
+│   │   ├── Jobs.jsx
+│   │   ├── PostJob.jsx
+│   │   └── Settings.jsx
+│   ├── App.jsx             # Main App component
+│   ├── main.jsx            # Entry point
+│   ├── App.css             # App-level styling
+│   └── index.css           # Global styles
+├── .gitignore
+├── index.html              # Base HTML template
+├── package.json            # Project metadata and dependencies
+├── vite.config.js          # Vite configuration
+├── README.md               # Project documentation
+```
 
 ---
 
 ## 🚀 Features
 
-- 🔍 **Job Search & Filters** – Search for jobs using filters (title, location, etc.)
-- 🧾 **Job Posting** – Companies can post job listings
-- 👤 **Company Profiles** – View detailed company information
-- ⚙️ **Settings** – Customize user preferences
-- 🧩 Modular architecture – Clean separation of components and pages
+- 🔍 **Job Search & Filters** – Search for jobs using criteria like title and location  
+- 🧾 **Job Posting** – Companies can create and manage job listings  
+- 👤 **Company Profiles** – View detailed company information  
+- ⚙️ **Settings Panel** – Customize user preferences  
+- 🧩 **Modular Architecture** – Organized and scalable component/page structure  
 
 ---
 
 ## 🛠️ Tech Stack
 
-- **Frontend:** React (with Vite)
-- **Styling:** CSS (Modular)
+- **Frontend:** React (via Vite)
+- **Styling:** Modular CSS
 - **Routing:** React Router (assumed)
-- **Icons/Assets:** Stored under `assets/`
+- **Assets:** Stored under `src/assets/`
 
 ---
 
 ## 🧪 Getting Started
 
 ```bash
-# Clone the repo
+# 1. Clone the repository
 git clone https://github.com/your-username/employee_portal.git
 
-# Navigate to the project folder
+# 2. Navigate to the project directory
 cd employee_portal
 
-# Install dependencies
+# 3. Install dependencies
 npm install
 
-# Start the development server
+# 4. Start the development server
 npm run dev
+```
 
---Once this will Run make sure that app logo change as you want--
+> ✅ Once running, feel free to replace the app logo under `src/assets/` to reflect your brand.
 
+---
 
-🧑‍💻 Contributing
-Contributions are welcome! Feel free to fork the repo and submit a pull request.
+## 🧑‍💻 Contributing
 
-Thank You
-# React + Vite
+Contributions are welcome! Feel free to fork this repo and submit a pull request.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+---
 
-Currently, two official plugins are available:
+## 📚 Notes on Vite + React Setup
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This template leverages [Vite](https://vitejs.dev/) for lightning-fast development with React. It supports:
 
-## Expanding the ESLint configuration
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react) – Uses **Babel** for Fast Refresh  
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) – Uses **SWC** for improved performance  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+For production apps, consider:
+
+- Adding **TypeScript** support  
+- Enabling **type-aware ESLint rules**  
+- Refer to the [official Vite React + TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for best practices
+
+---
+
+## 📌 License
+
+This project is open-source. Feel free to use and customize it as needed.
