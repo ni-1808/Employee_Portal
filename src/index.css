@@ -1,0 +1,31 @@
+body {
+    background-color: #fdf6f0;
+    font-family: 'Georgia', serif;
+    color: #3e3e3e;
+  }
+  .card {
+    border-radius: 15px;
+    background-color: #fff8f0;
+  }
+  .btn-outline-primary {
+    border-color: #a9746e;
+    color: #a9746e;
+  }
+  .btn-outline-primary:hover {
+    background-color: #a9746e;
+    color: white;
+  }
+  .img{
+    border-radius: 15px;
+    size-adjust: 10px;
+    shape-margin: 20px;
+    
+    
+  }
+  mark {
+    background-color: #ffeaa7;
+    padding: 0 3px;
+    border-radius: 4px;
+  }
+  
+  
