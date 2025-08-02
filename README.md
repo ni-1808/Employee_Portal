@@ -101,6 +101,7 @@ For production apps, consider:
 This project is open-source. Feel free to use and customize it as needed.
 
 
-##OUTPUT
+
+## OUTPUT
 <img width="1919" height="1122" alt="Screenshot 2025-08-02 131220" src="https://github.com/user-attachments/assets/377cd967-ec05-4f37-b721-79263eeafb16" />
 
